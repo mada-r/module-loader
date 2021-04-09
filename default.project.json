@@ -1,0 +1,38 @@
+{
+  "name": "My Skate Park [Prod]",
+  "tree": {
+    "$className": "DataModel",
+
+    "ReplicatedStorage": {
+      "Retro": {
+        "$path": "retro/shared.project.json"
+      },
+      "modules": {
+        "$path": "src/modules/shared"
+      },
+      "$className": "ReplicatedStorage"
+    },
+
+    "ServerScriptService": {
+      "$className": "ServerScriptService",
+      "$path": "src/scripts/server"
+    },
+
+    "ServerStorage": {
+      "modules": {
+        "$path": "src/modules/server"
+      },
+      "$className": "ServerStorage"
+    },
+
+    "StarterPlayer": {
+      "StarterPlayerScripts": {
+        "modules": {
+          "$path": "src/modules/client"
+        },
+        "$className": "StarterPlayerScripts",
+        "$path": "src/scripts/client"
+      }
+    }
+  }
+}
